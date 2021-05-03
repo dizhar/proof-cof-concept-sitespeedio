@@ -1,0 +1,39 @@
+{   
+    "browsertime": {
+      "iterations": 1,
+      "browser": "chrome",
+      "spa": true,
+      "summary": true,
+      "script": "base/config/start_fiverr.js",
+      "chrome:": {
+        "ignoreCertificateErrors": true
+      },
+      "requestheader": ["x-chameleonx-enabled: true"],
+      "firefox.disableSafeBrowsing": true,
+    "firefox.acceptInsecureCerts": true,
+    "chrome.ignoreCertificateErrors": true,
+    "firefox.args": [],
+    "firefox.preference": {},
+    "chrome.args": ["--allow-external-pages", "--no-sandbox", "--headless"]
+    },
+    "html": {
+    "showAllWaterfallSummary": true,
+    "compareUrl": true
+  },
+  "Text": {
+    "summary": false
+  },
+  "Sustainable": {
+    "enable": true,
+    "pageViews": 7
+  },
+  "axe": {
+    "enable": true
+  },
+  "metrics": {
+    "list": true,
+    "filterList": true
+  },
+  "gzipHAR": true,
+  "video": true
+}
